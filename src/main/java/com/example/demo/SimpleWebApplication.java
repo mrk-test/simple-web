@@ -22,6 +22,6 @@ public class SimpleWebApplication extends SpringBootServletInitializer {
 
 	@GetMapping("/hello")
 	public String hello() {
-		return "Hello World";
+		return "Hello World v2.0";
 	}
 }
